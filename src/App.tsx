@@ -47,7 +47,7 @@ interface NotebookEntryProps {
   value: NotebookEntryProp
 }
 
-class NotebookEntry extends React.Component {
+class NotebookEntry extends React.Component<NotebookEntryProps> {
   state: NotebookEntryState
 
   constructor(props: NotebookEntryProps) {
